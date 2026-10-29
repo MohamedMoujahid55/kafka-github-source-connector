@@ -1,0 +1,78 @@
+# Maven build artifacts
+target/
+build/
+!**/src/main/**/target/
+!**/src/test/**/target/
+!**/src/main/**/build/
+!**/src/test/**/build/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Byte-code and dumps
+*.class
+*.hprof
+
+# Kotlin
+.kotlin
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# Eclipse
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# VS Code
+.vscode/
+
+# Operating System Files
+.DS_Store
+**/.DS_Store
+Thumbs.db
+.Spotlight-V100
+.Trashes
+
+# Secrets, Environment & Credentials
+*.env
+*.env.*
+*.pat
+*.key
+*.pem
+*.token
+*.p12
+*.jks
+credentials*
+*secret*
+!*Secret*.java
+
+# Kafka Connect offsets & local data
+*.offsets
+standalone.offsets
+offsets/standalone.offsets
+connect.offsets
+
+# Logs & Diagnostics
+*.log
+logs/
+hs_err_pid*
+replay_pid*
+
+# Local AI Agent Data
+.agents/
+.gemini/
+skills/
